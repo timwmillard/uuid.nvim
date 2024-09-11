@@ -9,8 +9,7 @@ local M = {}
 function M.newV4()
   local newUUID = uuid()
 
-  -- Set the new UUID in the current register
-  vim.fn.setreg('"', newUUID)
+  -- -- Set the new UUID in the current register
   vim.fn.setreg('+', newUUID)
 
   -- Display a message with the generated UUID
