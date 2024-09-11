@@ -2,7 +2,7 @@
 
 ## Commands
 
-`:UUID` - Generate a new UUID an put in register.
+`:UUID` - Generate a new UUID and put in register.
 
 ## Dependacies
 https://github.com/Tieske/uuid
